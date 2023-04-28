@@ -1,10 +1,4 @@
 import pandas as pd
-import time
-import pyarrow as pa
-
-
-import polars as pl
-import time
 
 from utility import pl_read_csv, pl_read_parquet, pd_read_parquet_default, pd_read_csv, conduct_experiment, pd_read_parquet
 from performance_tests import pl_mean_test_speed, mean_test_speed_pd, endwith_test_speed_pd, endwith_test_speed_pl
